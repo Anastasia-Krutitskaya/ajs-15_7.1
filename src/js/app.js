@@ -13,7 +13,3 @@ export default class Validator {
     return false;
   }
 }
-
-console.log(new Validator('aAb356-_f').validateUserName());
-
-// [0-9]{1,3}

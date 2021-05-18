@@ -39,4 +39,3 @@ test('more than 3 numbers', () => {
   const result = new Validator('aAb35667-_a').validateUserName();
   expect(result).toBe(false);
 });
-
